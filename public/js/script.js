@@ -1,10 +1,12 @@
-const button = document.querySelector('#button');
-const titleH = document.querySelector('.title');
+let datadiv = document.getElementById("data")
 
-button.addEventListener('click',() => {
-    titleH.innerHTML = titleH.innerHTML+"🤘😎🤘ROBIT!!!!!🤘😎🤘"
+function time() {
+    let date = new Date();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+    datadiv.textContent = `${hours}:${minutes}:${seconds}`
+}
+// datadiv.textContent = `${hours}:${minutes}:${seconds}`
 
-});
-
-
-console.log(`${Math.random()*100}px`)
+setInterval(time, 500);
