@@ -222,13 +222,6 @@ margin-top: 25px;
 
 .Check {
     padding: 34px 24px;
-
-
-
-
-
-
-
 }
 
 .tex {
@@ -301,3 +294,62 @@ margin-top: 25px;
 
 }
 
+.card{
+    width: 386px;
+    height: 557px;
+    margin-left: auto;
+}
+.span{
+   color: gray;
+}
+.text{
+    width: 200px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+}
+.span1{
+    color: rgb(0, 0, 0);
+}
+.span2{
+    color: rgb(0, 0, 0);
+}
+.span3{
+    color: rgb(0, 0, 0);
+}
+
+.block{
+    width: 338px;
+    height: 50px;
+
+}
+.znachenee{
+    height: 90px;
+
+}
+.xz{
+    height: 35px;
+}
+.input{
+    width: 190px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 2px rgb(212, 212, 212);
+}.input2{
+    width: 190px;
+    border-radius: 4px;
+    border: solid 2px rgb(212, 212, 212);
+
+}
+.select{
+    width: 190px;
+    border-radius: 4px;
+    border: solid 2px rgb(212, 212, 212);
+}
+.text1{ 
+    height: 100px;  
+    width: 290px; 
+}
+.checkbox{
+    height: 30px;
+}
