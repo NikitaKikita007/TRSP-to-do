@@ -23,7 +23,7 @@
                 <span></span>
             </div>
 
-            <img src="./img/Clipboard.svg" alt="">
+            <img id="task-add" src="./img/Clipboard.svg" alt="">
             <img src="./img/account_circle.svg" alt="">
             <img src="./img/Align justify.svg" alt="">
         </div>
@@ -130,6 +130,9 @@
                     </div>
                     <img src="./img/./img/Trash 3.png" alt="">
                 </div>
+
+                <img src="./img/Trash 3.png" alt="">
+
             </div>
 
 
@@ -138,6 +141,17 @@
     </div>
 
 
+
+
+        <div class="add-task-block">
+            <div class="text1">
+                <h2>Добавление задачи</h2>
+                <span class="span">Заполните информацию и нажмите кнопку</span>
+            </div>
+            <div class="block">
+                <div>
+                    <span class="">Название задачи</span>
+                </div>
 
 
     <div class="card">
@@ -150,12 +164,25 @@
                 <span class="span1">Название задачи</span>
             </div>
 
+            <div class="block">
+                <div>
+                    <span class="">Важность задачи</span>
+                </div>
+                <select name="select" class="select">
+                    <option value="value1" selected>Самое важное</option>
+                    <option value="value2">Важное</option>
+                    <option value="value3">Не важное</option>
+                    <option value="value3">Можно забить</option>
+                </select>
+
+
             <input type="text" class="input2" placeholder="Название">
         </div>
         <div class="block">
             <div>
                 <span class="span2">Важность задачи</span>
             </div>
+
             <select name="select" class="select">
                 <option value="value1" selected>Самое важное</option>
                 <option value="value2">Важное</option>
@@ -167,6 +194,20 @@
         <div class="znachenee">
             <div>
                 <span class="span3">Описание задачи</span>
+
+            <div class="task-value">
+                <div>
+                    <span class="">Описание задачи</span>
+                </div>
+                <input type="text" class="task-deskript-input" placeholder="Значение">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <span class="">Добавить время на задачу</span>
+            </div>
+            <div>
+                <button class="submit-task-button">Добавить задачу</button>
+
             </div>
             <input type="text" class="input" placeholder="Значение">
         </div>
